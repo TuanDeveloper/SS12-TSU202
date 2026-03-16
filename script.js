@@ -1,22 +1,20 @@
-// let isRaining = "mưa cat and dog";
-
-// if (isRaining == "mưa" && false) {
-//     // Code sẽ chạy nếu Điều kiện đúng
-//     console.log("Mưa rồi nghỉ ở nhà không đi làm");
-// } else if (isRaining == "mưa cat and dog")  {
-//     console.log("Nhờ người yêu chở đi làm");
-// } else {
-//     console.log("Đi làm thôi");
-// }
-let a = "1";
-switch (a) {
-    case "1":
-        console.log("Nội dung 1");
-        // break;
-    case 2:
-        console.log("Nội dung 2");
-        // break;
-    default:
-        console.log("Không có giá trị nào đúng");
-        break;
+for (let i = 1; i <= 10; i = i + 1) {
+    // code được lặp
+    console.log("Chạy quanh công viên vòng thứ ", i);
+    continue;
 }
+
+// Kiểm tra điều kiện xong mới chạy
+// let age = 10;
+// while(age != 30) {
+//     // code here
+//     age = prompt("Nhap vao tuoi");
+//     i++;
+// }
+
+// Chạy ít nhất 1 lần xong mới kiểm tra
+// let age = 30;
+// do {
+//     age = prompt("Nhap vao tuoi");
+//     i++;
+// } while(age != 30);
