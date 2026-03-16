@@ -1,23 +1,22 @@
-// var age = 30;
-// Khai bao lai
-// var age = "Tôi 40 tuổi";
-// Gán lại giá trị
-// age = "Tôi hiện tại đang 50 tuổi";
-// console.log(age);
-// Phạm vi - Scope
+// let isRaining = "mưa cat and dog";
 
-// Block scope
-
-{
-    const age = 10;
-    
-}
-console.log(age);
-
-// Function scope
-// function check() {
-//     var age = 10;
+// if (isRaining == "mưa" && false) {
+//     // Code sẽ chạy nếu Điều kiện đúng
+//     console.log("Mưa rồi nghỉ ở nhà không đi làm");
+// } else if (isRaining == "mưa cat and dog")  {
+//     console.log("Nhờ người yêu chở đi làm");
+// } else {
+//     console.log("Đi làm thôi");
 // }
-
-// console.log(age);
-
+let a = "1";
+switch (a) {
+    case "1":
+        console.log("Nội dung 1");
+        // break;
+    case 2:
+        console.log("Nội dung 2");
+        // break;
+    default:
+        console.log("Không có giá trị nào đúng");
+        break;
+}
